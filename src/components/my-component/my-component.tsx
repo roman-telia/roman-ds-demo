@@ -32,6 +32,6 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()} and I'm {this.age} years old.</div>;
+    return <div>I'm {this.getText()} and I'm {this.age} years old.</div>;
   }
 }
